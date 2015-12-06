@@ -1,11 +1,13 @@
-# Kalabox Boot2Docker
+# PROJECT DEPRECATED DO NOT USE
+
+## Kalabox Boot2Docker
 
 This contains the scaffolding to build a custom Boot2Docker image for use
 with Kalabox2.
 
-## Getting started
+### Getting started
 
-### Cleaning up
+#### Cleaning up
 
 If you already have a B2D VM running you will want to get rid of the previous
 things.
@@ -16,12 +18,12 @@ rm -rf ~/.boot2docker
 rm ~/.ssh/*boot2docker*
 ```
 
-### Installing boot2docker
+#### Installing boot2docker
 
 If you don't have B2D installed at all you should check out their win and
 osx installers. If you are on Linux then this will all seem silly to you.
 
-### Initializing and starting the kalabox b2d iso
+#### Initializing and starting the kalabox b2d iso
 
 And then intall the new things
 
@@ -36,7 +38,7 @@ boot2docker init
 boot2docker up
 ```
 
-## Building the custom image
+### Building the custom image
 
 You will need to be in a docker-ready environment to do this.
 
